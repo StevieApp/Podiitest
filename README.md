@@ -9,7 +9,7 @@
 <img src="https://github.com/StevieApp/Podiitest/blob/master/Screenshot%202023-04-10%20194656.png" style="object-position:center; object-fit:cover; border-radius:10px" width="100%">
 
 
-**TODO: Podii test**
+**Podii test**
 
 ## Installation
 
