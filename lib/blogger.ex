@@ -19,4 +19,25 @@ defmodule Blogger do
   def arrayToUpperCase(myarray) do
     Enum.map(myarray, &(String.upcase(&1)))
   end
+
+  def arrayToUpperCase2(myarray) do
+    Enum.map(myarray,  fn(el) ->
+      if(el == "cow") do
+        String.upcase(el)
+      else
+        el
+      end
+    end)
+  end
+
+  def arrayToUpperCase3(myarray) do
+    Enum.with_index(myarray, fn el, dex ->
+      if(dex == 0) do
+        String.upcase(el)
+      else
+        el
+      end
+    end)
+  end
+
 end
